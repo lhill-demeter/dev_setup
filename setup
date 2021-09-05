@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# Install python3
+# install aws
+# install docker desktop
+
+
+# Check for homebrew installation, if it is not present install it
+which -s brew
+if [[ $? != 0 ]]; then
+    # Install homebrew
+    echo "Installing Brew.."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    brew --version
+else
+    # Print brew already installed
+    brew update
+    printf "\n"
+    printf "Brew installed" 
+    brew --version
+fi
+
+# Check for git installation, it it is not present install it
+printf "\n"
+# Check for Git
+git --version 2>&1 >/dev/null
+GIT_IS_AVAILABLE=$?
+if [[ $GIT_IS_AVAILABLE -eq 0 ]]; then
+    # Install git
+    echo "Installing Git..."
+    brew install git
+else
+    # Print git installed
+    echo "Git installed\n"
+    git --version
+fi
+
+# Setup git config
+printf "\n"
+# Add if look to check for git config existance
+
+# printf "We will now configure github access"
+# printf "\n"
+# printf "Enter the Global User Email for Git: ";
+# read GITEMAIL;
+# git config --global user.email "${GITEMAIL}"
+# printf "\n"
+# printf "Enter the Global Username for Git: ";
+# read GITUSER;
+# git config --global user.email "${GITUSER}"
+# fi
+
+# Configure git secure access
+# Add check to see if git ssh file exist
+# ssh-keygen -t ed25519 -C {GITEMAIL}
+# eval "$(ssh-agent -s)"
+# Check if ssh config exist
+# touch ~/.ssh/config
+# ssh-add -K ~/.ssh/id_ed25519
+# print ssh pub key
+# printf "copy ssh key into github ssh keys"
+
+
+

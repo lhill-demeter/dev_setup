@@ -1,20 +1,24 @@
 # dev_setup
-code for setting up local dev env
-
-# Project Title
-
-Simple overview of use/purpose.
+The .setup bash script will configure your computer for work as a Demeter Logistics developer
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The setup will install and configure the following tools:
+ * Homebrew
+ * Python 3
+ * Pip 3
+ * AWS cli
+ * Git
+ * Docker Desktop
+ * VS Code
 
 ## Getting Started
 
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* MacBook
+* Corporate login information
 
 ### Installing
 
