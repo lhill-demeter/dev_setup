@@ -33,8 +33,8 @@ Open `windows_install_depeddencies.md` . This will provide you with the informat
 ## Aditional Steps
 You will need to configure the following tools to access Demeter's codebase and infrastructure.
 
-[@AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
-[@GitHub login](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+ * [@AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
+ * [@GitHub login](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ### Dependencies
 
