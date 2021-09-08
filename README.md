@@ -1,51 +1,57 @@
 # dev_setup
-The .setup bash script will configure your computer for work as a Demeter Logistics developer
+The script and Mardown Document will help you configure your computer for work as a Demeter Logistics developer
 
 ## Description
 
-The setup will install and configure the following tools:
+The Mac setup will install and configure the following tools:
  * Homebrew
  * Python 3
  * Pip 3
- * AWS cli
+ * AWS CLI
  * Git
- * Docker Desktop
+ * Docker Desktop, CLI
+ * VS Code: with the following extensions
+    * ms-azuretools.vscode-docker 
+    * ms-vscode-remote.remote-containers
+ * Webstorm
+
+The Windows setup contains written instructions and link on how to install the following tools:
+ * Python 3
+ * Pip 3
+ * AWS CLI
+ * Git
+ * Docker for Windows Subsystem for Linux
  * VS Code
+ * Webstorm  
 
 ## Getting Started
 
+Run `./mac_install_depeddencies.sh` from terminal. This will install all Mac dependencies onto you local user account.
+
+Open `windows_install_depeddencies.md` . This will provide you with the information for the Windows tools you will need.
+
+## Aditional Steps
+You will need to configure the following tools to access Demeter's codebase and infrastructure.
+
+[@AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
+[@GitHub login](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* MacBook
+* MacBook or Windows laptop
 * Corporate login information
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Post all question in the `Development` chanel in Microsoft Teams with the `#newdev` tag.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Luther Hill 
+[@luther](https://linkedin.com/sweetdatatea)
 
 ## Version History
 
@@ -57,7 +63,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 

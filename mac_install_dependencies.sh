@@ -100,3 +100,12 @@ fi
 printf "\n"
 
 # add and configure webstorm
+which -s webstorm
+if [[ $? != 0 ]];
+then
+    # install webstorm
+    printf "installing Webstorm\n\n"
+    brew cask install webstorm
+    printf " Webstorm installed"
+else
+    printf "Webstorm installed"
