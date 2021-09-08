@@ -66,7 +66,7 @@ if [[ $? != 0 ]];
 then
     # Install Docker and Docker Desktop
     printf "Installing docker\n\n"
-    brew cask install --cask docker
+    brew cask install docker
     printf "Docker installed\n\n"
 else
     printf "Docker installed\n\n"
