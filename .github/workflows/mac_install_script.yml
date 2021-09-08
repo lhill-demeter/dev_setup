@@ -12,6 +12,6 @@ jobs:
       - run: git --version
       - run: python3 --version
       - run: aws --version
-      - run: docker --version
+      # - run: docker --version
       - run: code --version
       - run: code --list-extensions
