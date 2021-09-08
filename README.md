@@ -51,7 +51,7 @@ Post all question in the `Development` chanel in Microsoft Teams with the `#newd
 Contributors names and contact info
 
 Luther Hill 
-[@luther](https://linkedin.com/sweetdatatea)
+[@luther](https://www.linkedin.com/sweetdatatea)
 
 ## Version History
 
