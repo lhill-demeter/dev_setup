@@ -1,4 +1,6 @@
 name: Mac install dependencies script
+author: Luther Hill lhill@demeterlogistics.com
+description: 
 on:
   push:
     branches: [main]
