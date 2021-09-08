@@ -4,7 +4,7 @@
 which -s brew
 if [[ $? != 0 ]]; 
 then
-    # Install and configure homebrew
+    # Install homebrew
     echo "Installing Home Brew.."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     printf "\n"
@@ -16,7 +16,7 @@ fi
 printf "\n"
 
 
-# Install and configure GIT
+# Install GIT
 which -s git 
 if [[ $? != 0 ]]; 
 then
@@ -31,7 +31,7 @@ fi
 printf "\n"
 
 
-# Install and confifure python 3
+# Install python 3
 which -s python3
 if [[ $? != 0 ]];
 then
@@ -48,8 +48,7 @@ fi
 printf "\n"
 
 
-# Install and configure AWS CLI
-# Still need to add configuration
+# Install AWS CLI
 which -s aws
 if [[ $? != 0 ]];
 then
@@ -61,7 +60,7 @@ else
 fi
 
 
-# Install and configure Docker desktop
+# Install Docker desktop and cli
 which -s docker
 if [[ $? != 0 ]];
 then
@@ -74,7 +73,7 @@ else
 fi
 
 
-# Install and configure VS Code
+# Install and extensions for VS Code
 which -s code
 if [[ $? != 0 ]];
 then
@@ -93,12 +92,11 @@ EOF
     printf "Adding extensions:\n\tms-azuretools.vscode-docker\n\tms-vscode-remote.remote-containers"
     code --install-extension ms-azuretools.vscode-docker 
     code --install-extension ms-vscode-remote.remote-containers
+    # add linter
 else
     printf "VS Code installed"
     printf "\n"
 fi
 printf "\n"
 
-
-
-
+# add and configure webstorm

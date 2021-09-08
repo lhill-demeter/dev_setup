@@ -1,0 +1,17 @@
+name: Mac install dependencies script
+on:
+  push:
+    branches: [main]
+
+jobs:
+  check-dependencies-installed:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew --version
+      - run: git --version
+      - run: python3 --version
+      - run: aws --version
+      - run: docker --version
+      - run: code --version
+      - run: code --list-extensions
