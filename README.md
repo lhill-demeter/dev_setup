@@ -1,5 +1,5 @@
 # dev_setup
-The script and Mardown Document will help you configure your computer for work as a Demeter Logistics developer
+The script and Markdown Document will help you configure your computer for work as a Demeter Logistics developer
 
 ## Description
 
