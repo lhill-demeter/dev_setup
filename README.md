@@ -26,9 +26,9 @@ The Windows setup contains written instructions and link on how to install the f
 
 ## Getting Started
 
-Run `./mac_install_depeddencies.sh` from terminal. This will install all Mac dependencies onto you local user account.
+Run `./mac_install_depedencies.sh` from terminal. This will install all Mac dependencies onto you local user account.
 
-Open `windows_install_depeddencies.md` . This will provide you with the information for the Windows tools you will need.
+Open `windows_install_depedencies.md` . This will provide you with the information for the Windows tools you will need.
 
 ## Aditional Steps
 You will need to configure the following tools to access Demeter's codebase and infrastructure.
