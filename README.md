@@ -36,6 +36,11 @@ You will need to configure the following tools to access Demeter's codebase and 
  * [@AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
  * [@GitHub login](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
+ You will also need to add the following webbased tools. Talk with [Jim Wooldridge]<jwooldridge@demeterlogistics.com>
+  * [Figma](https://figma.com)
+  * [Miro](https://miro.com)
+  * [Jira](https://jira.atlassian.com)
+
 ### Dependencies
 
 * MacBook or Windows laptop
